@@ -1,0 +1,564 @@
+/**
+ * Plugin Name: App it Up!
+ * Plugin URI: http://vallgroup.com/App-it-up.php
+ * Description: Turn your Wordpress site into an iPhone/iPad App! When a user saves your site to their device's home screen your site immediately looks and behaves like a native app.
+ * Version: 1.0
+ * Author: Vallroup LLC
+ * Author URI: http://vallgroup.com
+ * License: GPL2
+ */
+
+/* App it Up! Settings Page */
+.vg-appitup-settings-page {
+	display:block;
+	background:#fff;
+	padding: 20px;
+	overflow:hidden;
+	font-weight: 300;
+	color:#555;
+}
+
+.vg-appitup-settings-page h2{
+	color: inherit;
+	font-size: 1.5em;
+	margin: .83em 0;
+	font-weight: 400;
+}
+
+.vg-appitup-settings-page i {
+	text-align:justify;
+}
+
+.vg-appitup-settings-page .submit {
+	display:block;
+	text-align:right;
+}
+
+.vg-appitup-settings-page .vg-btn-primary {
+	background:#eee;
+	display:inline-block;
+	padding:15px 35px;
+	border:0;
+	line-height:20px;
+	font-size:14px;
+	font-weight:inherit;
+	font-family:inherit;
+	color:#27b4b4;
+	-webkit-appearance:none;
+	-moz-appearance: none;
+	cursor:pointer;
+}
+
+.vg-appitup-settings-page .vg-btn-primary:hover{
+	background:#27b4b4;
+	color:#fff;
+}
+
+.vg-appitup-settings-page .vg-top-save-btn {
+	top: 10px;
+	right: 20px;
+}
+
+/* App it Up! Classes and Resets */
+.vg-appitup-settings-page * {
+	margin:0;
+	padding:0;
+	text-decoration:none;
+}
+
+.vg-appitup-settings-page .relative{
+	position:relative;
+}
+
+.vg-appitup-settings-page .absolute{
+	position:absolute;
+}
+
+.vg-appitup-settings-page .fixed{
+	position:fixed;
+}
+
+.vg-appitup-settings-page img.responsive {
+	max-width:100%;
+	height:auto;
+}
+
+.vg-appitup-settings-page img.round-img {
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-ms-border-radius:50%;
+	-o-border-radius:50%;
+}
+
+.vg-appitup-settings-page img.square-img {
+	border-radius:0;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	-ms-border-radius:0;
+	-o-border-radius:0;
+}
+
+.vg-appitup-settings-page .row {
+	display:block;
+	overflow:hidden;
+	margin-left:-1%;
+	margin-right:-1%;
+}
+
+.vg-appitup-settings-page .clear{
+	display:block;
+	clear:both;
+	width:100%;
+	height:0;
+}
+
+.vg-appitup-settings-page .inline > [class^="span"],.vg-appitup-settings-page .inline > [class*=" span"],.vg-appitup-settings-page .inline > [class^="col"],.vg-appitup-settings-page .inline > [class*=" col"],.vg-appitup-settings-page ul.inline > li {
+	display:inline-block;
+}
+
+.vg-appitup-settings-page .vertical-middle {
+	vertical-align:middle;
+}
+
+.vg-appitup-settings-page .vertical-top {
+	vertical-align:top;
+}
+
+.vg-appitup-settings-page .vertical-bottom {
+	vertical-align:bottom;
+}
+
+.vg-appitup-settings-page .animate {
+	transition:all .3s ease-in-out;
+	-webkit-transition:all .3s ease-in-out;
+	-moz-transition:all .3s ease-in-out;
+	-o-transition:all .3s ease-in-out;
+}
+
+.vg-appitup-settings-page .animate5 {
+	transition:all .5s ease-in-out;
+	-webkit-transition:all .5s ease-in-out;
+	-moz-transition:all .5s ease-in-out;
+	-o-transition:all .3s ease-in-out;
+}
+
+.vg-appitup-settings-page .animate8 {
+	transition:all .8s ease-in-out;
+	-webkit-transition:all .8s ease-in-out;
+	-moz-transition:all .8s ease-in-out;
+	-o-transition:all .8s ease-in-out;
+}
+
+.vg-appitup-settings-page .round-corners {
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	-o-border-radius:3px;
+}
+
+.vg-appitup-settings-page .round-corners5 {
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+}
+
+.vg-appitup-settings-page .round-corners10 {
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	-o-border-radius:10px;
+}
+
+.vg-appitup-settings-page .block {
+	display:block;
+}
+.vg-appitup-settings-page .col2,
+.vg-appitup-settings-page .col3,
+.vg-appitup-settings-page .col4,
+.vg-appitup-settings-page .col5,
+.vg-appitup-settings-page .col6,
+.vg-appitup-settings-page .span1,
+.vg-appitup-settings-page .span2,
+.vg-appitup-settings-page .span3,
+.vg-appitup-settings-page .span4,
+.vg-appitup-settings-page .span5,
+.vg-appitup-settings-page .span6,
+.vg-appitup-settings-page .span7,
+.vg-appitup-settings-page .span8,
+.vg-appitup-settings-page .span9,
+.vg-appitup-settings-page .span10,
+.vg-appitup-settings-page .span11,
+.vg-appitup-settings-page .span12{
+	width:98%;
+	margin:10px 1%;
+}
+
+.vg-appitup-settings-page .float-right {
+	float:right;
+}
+
+.vg-appitup-settings-page .float-left {
+	float:left;
+}
+
+.vg-appitup-settings-page .center {
+	text-align:center;
+}
+
+.vg-appitup-settings-page .left {
+	text-align:left;
+}
+
+.vg-appitup-settings-page .right {
+	text-align:right;
+}
+
+.vg-appitup-settings-page .justify {
+	text-align:justify;
+}
+
+/* Field Section */
+.vg-appitup-settings-page .field-section {
+	padding:10px 0 20px 0;
+	border-top: 1px solid #27b4b4;
+}
+
+.vg-appitup-settings-page .field-section h3{
+	display:block;
+	text-align:center;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size:22px;
+	margin:10px 0 25px 0;
+}
+
+.vg-appitup-settings-page .field {
+	display:block;
+	margin: 20px 0;
+}
+
+.vg-appitup-settings-page .field label,.vg-appitup-settings-page .field p.label {
+	display:block;
+	line-height:20px;
+	font-size:18px;
+	font-weight:inherit;
+	font-family:inherit;
+	margin:10px 0 5px 0;
+}
+
+.vg-appitup-settings-page .field label + i,.vg-appitup-settings-page .field p.label + i{
+	display:block;
+	color:#aaa;
+	margin-bottom:5px;	
+}
+
+.vg-appitup-settings-page .field input[type="text"],.vg-appitup-settings-page .field input[type="file"],.vg-appitup-settings-page .field input[type="tel"],.vg-appitup-settings-page .field input[type="username"],.vg-appitup-settings-page .field input[type="password"],.vg-appitup-settings-page .field select {
+	text-align:left;
+	width:100%;
+	border:0;
+	background: url(images/blank.gif) repeat top left;
+	-webkit-background: url(images/blank.gif) repeat top left;
+	-moz-background: url(images/blank.gif) repeat top left;
+	-webkit-appearance: none !important;
+	color:#555;
+	z-index:0;
+	padding:3px 0;
+	margin:0;
+	overflow:hidden;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-ms-box-shadow: none;
+	-o-box-shadow: none;
+	font-size:14px;
+	font-weight:inherit;
+	font-family:inherit;
+	text-transform:uppercase;
+	letter-spacing:3px;
+}
+
+.vg-appitup-settings-page .field input:focus,.vg-appitup-settings-page .field select:focus{
+	outline-offset: 0;
+}
+
+.vg-appitup-settings-page .field ::-webkit-input-placeholder,.vg-appitup-settings-page .field :-moz-placeholder,.vg-appitup-settings-page .field ::-moz-placeholder,.vg-appitup-settings-page .field :-ms-input-placeholder {
+	color:#555;
+	font-size:14px;
+	font-weight:inherit;
+	font-family:inherit;
+	text-transform:uppercase;
+	letter-spacing:3px;
+}
+
+.vg-appitup-settings-page .field input[type="text"] {
+	border-bottom:1px solid #ccc;
+	font-size:14px;
+	line-height:20px;
+	padding:5px 0;
+}
+
+/* File fields */
+.vg-appitup-settings-page .field .file{
+	background:transparent;
+	padding:30px 0 40px 0;
+	margin:0;
+	box-shadow: inset 0 1px 1px #aaa;
+	-webkit-box-shadow: inset 0 1px 1px #aaa;
+	-moz-box-shadow: inset 0 1px 1px #aaa;
+	-ms-box-shadow: inset 0 1px 1px #aaa;
+	-o-box-shadow: inset 0 1px 1px #aaa;
+}
+
+.vg-appitup-settings-page .field .file .file-preview{
+	height:100px;
+}
+
+.vg-appitup-settings-page .field .file.empty{
+	background:#555;
+	box-shadow: inset 0 1px 1px #555;
+	-webkit-box-shadow: inset 0 1px 1px #555;
+	-moz-box-shadow: inset 0 1px 1px #555;
+	-ms-box-shadow: inset 0 1px 1px #555;
+	-o-box-shadow: inset 0 1px 1px #555;
+}
+
+.vg-appitup-settings-page .field .file.empty .file-preview{
+	background: none;
+}
+
+.vg-appitup-settings-page .field .file input[type="text"] {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	border:0;
+	background: url(images/blank.gif) repeat top left;
+	-webkit-background: url(images/blank.gif) repeat top left;
+	-moz-background: url(images/blank.gif) repeat top left;
+	-webkit-appearance: none !important;
+	color:#555;
+	z-index:0;
+	padding:3px 0;
+	margin:0;
+	text-align:center;
+	overflow:hidden;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-ms-box-shadow: none;
+	-o-box-shadow: none;
+	font-size:14px;
+	font-weight:inherit;
+	font-family:inherit;
+	text-transform:uppercase;
+	letter-spacing:3px;
+}
+
+.vg-appitup-settings-page .field .file .btn-upload, .field .file .btn-remove {
+	position:absolute;
+	bottom:0;
+	display:inline-block;
+	width:50%;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	border:0;
+	border-radius:0;
+}
+
+.vg-appitup-settings-page .field .file .btn-upload {
+	left:0;
+	background:#27b4b4;
+	color:#fff;
+}
+
+.vg-appitup-settings-page .field .file .btn-remove {
+	right:0;
+	background:#eee;
+	color:#27b4b4;
+}
+
+/* Select Fields */
+.vg-appitup-settings-page .field .select{
+	
+}
+
+.vg-appitup-settings-page .field .select .select-options .select-option{
+	display:none;
+	margin: 5px 0;
+}
+
+.vg-appitup-settings-page .field .select .select-options .select-option.active{
+	display:block;
+}
+
+.vg-appitup-settings-page .field .select .select-options .select-option a{
+	font-size:14px;
+	font-family:inherit;
+	font-weight:inherit;
+	color:#27b4b4;
+	line-height:20px;
+	padding:5px 0;
+	border:1px solid #27b4b4;
+	background:#fff;
+	position:relative;
+}
+
+.vg-appitup-settings-page .field .select .select-options .select-option.active a,.vg-appitup-settings-page .field .select .select-options .select-option a:hover {
+	background:#27b4b4;
+	color:#fff;
+}
+
+.vg-appitup-settings-page .field .select .select-options .select-option.active a:after {
+	font-family:'FontAwesome';
+	font-weight:inherit;
+	font-size:14px;
+	content: "\f0a6";
+	line-height:20px;
+	padding:5px;
+	position:absolute;
+	top:0;
+	right:0;
+	width:20px;
+	text-align:center;
+}
+
+/* Checkboxes */
+.vg-appitup-settings-page .field .checkbox input[type="checkbox"] {
+	display:none;
+}
+
+.vg-appitup-settings-page .field .checkbox input[type="checkbox"] + label {
+	display:inline-block;
+	clear:both;	
+	padding:5px 25px;
+	border:0;
+	text-align:center;
+	font-weight:inherit;
+	font-size:14px;
+	background:#eee;
+	color:#27b4b4;
+}
+
+.vg-appitup-settings-page .field .checkbox input[type="checkbox"] + label:before {
+	font-family:'FontAwesome';
+	content:"\f05e";
+}
+
+.vg-appitup-settings-page .field .checkbox input[type="checkbox"]:checked + label{
+	background:#27b4b4;
+	color:#fff;
+}
+
+.vg-appitup-settings-page .field .checkbox input[type="checkbox"]:checked + label:before {
+	font-family:'FontAwesome';
+	content:"\f00c";	
+}
+
+/*Responsive Design*/
+
+@media screen and (min-width:601px) {
+	.vg-appitup-settings-page .row > [class^="span"],.vg-appitup-settings-page .row > [class*=" span"],.vg-appitup-settings-page .row > [class^="col"],.vg-appitup-settings-page .row > [class*=" col"] {
+		float:left;
+		margin:10px 1%;
+	}
+}
+
+@media screen and (min-width:801px){
+	.vg-appitup-settings-page .col2,
+	.vg-appitup-settings-page .col3,
+	.vg-appitup-settings-page .col4,
+	.vg-appitup-settings-page .col5,
+	.vg-appitup-settings-page .col6,
+	.vg-appitup-settings-page .span1,
+	.vg-appitup-settings-page .span2,
+	.vg-appitup-settings-page .span3,
+	.vg-appitup-settings-page .span4,
+	.vg-appitup-settings-page .span5,
+	.vg-appitup-settings-page .span6,
+	.vg-appitup-settings-page .span7,
+	.vg-appitup-settings-page .span8,
+	.vg-appitup-settings-page .span9,
+	.vg-appitup-settings-page .span10,
+	.vg-appitup-settings-page .span11,
+	.vg-appitup-settings-page .span12{
+		width:48%;
+		margin:10px 1%;
+	}
+}
+
+@media screen and (min-width:1201px){
+	.vg-appitup-settings-page .span1 {
+		width:6.3%;
+	}
+
+	.vg-appitup-settings-page .span2 {
+		width:14.6%;
+	}
+
+	.vg-appitup-settings-page .span3 {
+		width:23%;
+	}
+
+	.vg-appitup-settings-page .span4 {
+		width:31.3%;
+	}
+
+	.vg-appitup-settings-page .span5 {
+		width:39.6%;
+	}
+
+	.vg-appitup-settings-page .span6 {
+		width:48%;
+	}
+
+	.vg-appitup-settings-page .span7 {
+		width:56.3%;
+	}
+
+	.vg-appitup-settings-page .span8 {
+		width:64.6%;
+	}
+
+	.vg-appitup-settings-page .span9 {
+		width:73%;
+	}
+
+	.vg-appitup-settings-page .span10 {
+		width:81.3%;
+	}
+
+	.vg-appitup-settings-page .span11 {
+		width:89.6%;
+	}
+
+	.vg-appitup-settings-page .span12 {
+		width:98%;
+	}
+
+	.vg-appitup-settings-page .col2 {
+		width:48%;
+	}
+
+	.vg-appitup-settings-page .col3 {
+		width:31%;
+	}
+
+	.vg-appitup-settings-page .col4 {
+		width:23%;
+	}
+
+	.vg-appitup-settings-page .col5 {
+		width:18%;
+	}
+
+	.vg-appitup-settings-page .col6 {
+		width:14.6%;
+	}
+
+	.vg-appitup-settings-page .field-section h3{
+		text-align:left;
+	}
+}
