@@ -14,7 +14,7 @@ jQuery(function($){
 
     var custom_uploader;
     //upload A File
-    $('.tp-upload-file').click(function(e) {	
+    $('.vg-upload-file').click(function(e) {	
         e.preventDefault();
         $('.file-url').removeClass('insert-img');
         $(this).siblings('.file-url').addClass('insert-img');
@@ -43,7 +43,7 @@ jQuery(function($){
     });
 
     //remove File
-    $('.tp-remove-file').click(function(e){
+    $('.vg-remove-file').click(function(e){
     	e.preventDefault();
     	$(this).siblings('.file-url').attr('value', '');
         vg_remove_file_preview($(this)); 

@@ -48,8 +48,8 @@
 					<i>Size: 144 x 144</i>
 					<div class="file block relative empty animate5">
 						<input type="text" name="vg_icon_144x144" id="vg_icon_144x144" class="file-url" value="<?php echo get_option('vg_icon_144x144'); ?>">
-						<a href="#" data-input="#vg_icon_144x144" class="tp-upload-file btn-upload"><i class="fa fa-fw fa-lg fa-upload"></i></a>
-						<a href="#" id="tp-remove-file" class="tp-remove-file btn-remove"><i class="fa fa-fw fa-lg fa-eraser"></i></a>
+						<a href="#" data-input="#vg_icon_144x144" class="vg-upload-file btn-upload"><i class="fa fa-fw fa-lg fa-upload"></i></a>
+						<a href="#" id="vg-remove-file" class="vg-remove-file btn-remove"><i class="fa fa-fw fa-lg fa-eraser"></i></a>
 						<div class="file-preview"></div>
 					</div>						
 				</div>
@@ -59,8 +59,8 @@
 					<i>Size: 114 x 114</i>
 					<div class="file block relative empty animate5">
 						<input type="text" name="vg_icon_114x114" id="vg_icon_114x114" class="file-url" value="<?php echo get_option('vg_icon_114x114'); ?>">
-						<a href="#" data-input="#vg_icon_114x114" class="tp-upload-file btn-upload"><i class="fa fa-fw fa-lg fa-upload"></i></a>
-						<a href="#" id="tp-remove-file" class="tp-remove-file btn-remove"><i class="fa fa-fw fa-lg fa-eraser"></i></a>
+						<a href="#" data-input="#vg_icon_114x114" class="vg-upload-file btn-upload"><i class="fa fa-fw fa-lg fa-upload"></i></a>
+						<a href="#" id="vg-remove-file" class="vg-remove-file btn-remove"><i class="fa fa-fw fa-lg fa-eraser"></i></a>
 						<div class="file-preview"></div>
 					</div>
 				</div>
@@ -70,8 +70,8 @@
 					<i>Size: 72 x 72</i>
 					<div class="file block relative empty animate5">
 						<input type="text" name="vg_icon_72x72" id="vg_icon_72x72" class="file-url" value="<?php echo get_option('vg_icon_72x72'); ?>">
-						<a href="#" data-input="#vg_icon_72x72" class="tp-upload-file btn-upload"><i class="fa fa-fw fa-lg fa-upload"></i></a>
-						<a href="#" id="tp-remove-file" class="tp-remove-file btn-remove"><i class="fa fa-fw fa-lg fa-eraser"></i></a>
+						<a href="#" data-input="#vg_icon_72x72" class="vg-upload-file btn-upload"><i class="fa fa-fw fa-lg fa-upload"></i></a>
+						<a href="#" id="vg-remove-file" class="vg-remove-file btn-remove"><i class="fa fa-fw fa-lg fa-eraser"></i></a>
 						<div class="file-preview"></div>
 					</div>
 				</div>
@@ -81,8 +81,8 @@
 					<i>Size: 57 x 57</i>
 					<div class="file block relative empty animate5">
 						<input type="text" name="vg_icon_57x57" id="vg_icon_57x57" class="file-url" value="<?php echo get_option('vg_icon_57x57'); ?>">
-						<a href="#" data-input="#vg_icon_57x57" class="tp-upload-file btn-upload"><i class="fa fa-fw fa-lg fa-upload"></i></a>
-						<a href="#" id="tp-remove-file" class="tp-remove-file btn-remove"><i class="fa fa-fw fa-lg fa-eraser"></i></a>
+						<a href="#" data-input="#vg_icon_57x57" class="vg-upload-file btn-upload"><i class="fa fa-fw fa-lg fa-upload"></i></a>
+						<a href="#" id="vg-remove-file" class="vg-remove-file btn-remove"><i class="fa fa-fw fa-lg fa-eraser"></i></a>
 						<div class="file-preview"></div>
 					</div>
 				</div>
@@ -104,8 +104,8 @@
 					<i>Size: 320 x 460</i>
 					<div class="file block relative empty animate5">
 						<input type="text" name="vg_startup_image_320x460" id="vg_startup_image_320x460" class="file-url" value="<?php echo get_option('vg_startup_image_320x460'); ?>">
-						<a href="#" data-input="#vg_startup_image_320x460" class="tp-upload-file btn-upload"><i class="fa fa-fw fa-lg fa-upload"></i></a>
-						<a href="#" id="tp-remove-file" class="tp-remove-file btn-remove"><i class="fa fa-fw fa-lg fa-eraser"></i></a>
+						<a href="#" data-input="#vg_startup_image_320x460" class="vg-upload-file btn-upload"><i class="fa fa-fw fa-lg fa-upload"></i></a>
+						<a href="#" id="vg-remove-file" class="vg-remove-file btn-remove"><i class="fa fa-fw fa-lg fa-eraser"></i></a>
 						<div class="file-preview"></div>
 					</div>
 				</div>
@@ -115,8 +115,8 @@
 					<i>Size: 640 x 920</i>
 					<div class="file block relative empty animate5">
 						<input type="text" name="vg_startup_image_640x920" id="vg_startup_image_640x920" class="file-url" value="<?php echo get_option('vg_startup_image_640x920'); ?>">
-						<a href="#" data-input="#vg_startup_image_640x920" class="tp-upload-file btn-upload"><i class="fa fa-fw fa-lg fa-upload"></i></a>
-						<a href="#" id="tp-remove-file" class="tp-remove-file btn-remove"><i class="fa fa-fw fa-lg fa-eraser"></i></a>
+						<a href="#" data-input="#vg_startup_image_640x920" class="vg-upload-file btn-upload"><i class="fa fa-fw fa-lg fa-upload"></i></a>
+						<a href="#" id="vg-remove-file" class="vg-remove-file btn-remove"><i class="fa fa-fw fa-lg fa-eraser"></i></a>
 						<div class="file-preview"></div>
 					</div>
 				</div>
@@ -126,8 +126,8 @@
 					<i>Size: 640 x 1096</i>
 					<div class="file block relative empty animate5">
 						<input type="text" name="vg_startup_image_640x1096" id="vg_startup_image_640x1096" class="file-url" value="<?php echo get_option('vg_startup_image_640x1096'); ?>">
-						<a href="#" data-input="#vg_startup_image_640x1096" class="tp-upload-file btn-upload"><i class="fa fa-fw fa-lg fa-upload"></i></a>
-						<a href="#" id="tp-remove-file" class="tp-remove-file btn-remove"><i class="fa fa-fw fa-lg fa-eraser"></i></a>
+						<a href="#" data-input="#vg_startup_image_640x1096" class="vg-upload-file btn-upload"><i class="fa fa-fw fa-lg fa-upload"></i></a>
+						<a href="#" id="vg-remove-file" class="vg-remove-file btn-remove"><i class="fa fa-fw fa-lg fa-eraser"></i></a>
 						<div class="file-preview"></div>
 					</div>
 				</div>
@@ -137,8 +137,8 @@
 					<i>Size: 768 x 1004</i>
 					<div class="file block relative empty animate5">
 						<input type="text" name="vg_startup_image_768x1004" id="vg_startup_image_768x1004" class="file-url" value="<?php echo get_option('vg_startup_image_768x1004'); ?>">
-						<a href="#" data-input="#vg_startup_image_768x1004" class="tp-upload-file btn-upload"><i class="fa fa-fw fa-lg fa-upload"></i></a>
-						<a href="#" id="tp-remove-file" class="tp-remove-file btn-remove"><i class="fa fa-fw fa-lg fa-eraser"></i></a>
+						<a href="#" data-input="#vg_startup_image_768x1004" class="vg-upload-file btn-upload"><i class="fa fa-fw fa-lg fa-upload"></i></a>
+						<a href="#" id="vg-remove-file" class="vg-remove-file btn-remove"><i class="fa fa-fw fa-lg fa-eraser"></i></a>
 						<div class="file-preview"></div>
 					</div>
 				</div>
@@ -148,8 +148,8 @@
 					<i>Size: 1024 x 748</i>
 					<div class="file block relative empty animate5">
 						<input type="text" name="vg_startup_image_1024x748" id="vg_startup_image_1024x748" class="file-url" value="<?php echo get_option('vg_startup_image_1024x748'); ?>">
-						<a href="#" data-input="#vg_startup_image_1024x748" class="tp-upload-file btn-upload"><i class="fa fa-fw fa-lg fa-upload"></i></a>
-						<a href="#" id="tp-remove-file" class="tp-remove-file btn-remove"><i class="fa fa-fw fa-lg fa-eraser"></i></a>
+						<a href="#" data-input="#vg_startup_image_1024x748" class="vg-upload-file btn-upload"><i class="fa fa-fw fa-lg fa-upload"></i></a>
+						<a href="#" id="vg-remove-file" class="vg-remove-file btn-remove"><i class="fa fa-fw fa-lg fa-eraser"></i></a>
 						<div class="file-preview"></div>
 					</div>
 				</div>
@@ -159,8 +159,8 @@
 					<i>Size: 1536 x 2008</i>
 					<div class="file block relative empty animate5">
 						<input type="text" name="vg_startup_image_1536x2008" id="vg_startup_image_1536x2008" class="file-url" value="<?php echo get_option('vg_startup_image_1536x2008'); ?>">
-						<a href="#" data-input="#vg_startup_image_1536x2008" class="tp-upload-file btn-upload"><i class="fa fa-fw fa-lg fa-upload"></i></a>
-						<a href="#" id="tp-remove-file" class="tp-remove-file btn-remove"><i class="fa fa-fw fa-lg fa-eraser"></i></a>
+						<a href="#" data-input="#vg_startup_image_1536x2008" class="vg-upload-file btn-upload"><i class="fa fa-fw fa-lg fa-upload"></i></a>
+						<a href="#" id="vg-remove-file" class="vg-remove-file btn-remove"><i class="fa fa-fw fa-lg fa-eraser"></i></a>
 						<div class="file-preview"></div>
 					</div>
 				</div>
@@ -170,8 +170,8 @@
 					<i>Size: 2048 x 1496</i>
 					<div class="file block relative empty animate5">
 						<input type="text" name="vg_startup_image_2048x1496" id="vg_startup_image_2048x1496" class="file-url" value="<?php echo get_option('vg_startup_image_2048x1496'); ?>">
-						<a href="#" data-input="#vg_startup_image_2048x1496" class="tp-upload-file btn-upload"><i class="fa fa-fw fa-lg fa-upload"></i></a>
-						<a href="#" id="tp-remove-file" class="tp-remove-file btn-remove"><i class="fa fa-fw fa-lg fa-eraser"></i></a>
+						<a href="#" data-input="#vg_startup_image_2048x1496" class="vg-upload-file btn-upload"><i class="fa fa-fw fa-lg fa-upload"></i></a>
+						<a href="#" id="vg-remove-file" class="vg-remove-file btn-remove"><i class="fa fa-fw fa-lg fa-eraser"></i></a>
 						<div class="file-preview"></div>
 					</div>
 				</div>
